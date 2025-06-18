@@ -62,12 +62,12 @@ Create a `.env` file in the root of the project and add the following environmen
 
 ### Running Locally
 
-1. **To start the development server**:
-        ```bash
-        npm start
-        # or
-        node server.js
-        ```
+**To start the development server**:
+    ```bash
+    npm start
+    # or
+    node server.js
+    ```
 
 ## Deployment
 This backend is deployed on Render.
