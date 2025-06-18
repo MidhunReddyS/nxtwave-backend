@@ -13,8 +13,6 @@ This repository contains the backend for my application, built with Node.js and 
     - [Running Locally](#running-locally)
 - [Deployment](#deployment)
 - [API Endpoints](#api-endpoints)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -61,3 +59,31 @@ Create a `.env` file in the root of the project and add the following environmen
 MONGO_URI=
 JWT_ACCESS_TOKEN=
 DOMAIN = 
+
+### Running Locally
+
+To start the development server:
+    ```bash
+    npm install
+    # or
+    yarn install
+    ```
+## Deployment
+This backend is deployed on Render.
+
+The deployment process typically involves:
+
+Connecting your GitHub repository to Render.
+Configuring build commands (e.g., npm install).
+Setting up start commands (e.g., node app.js or npm start).
+Adding your environment variables directly within the Render dashboard.
+
+## API Endpoints
+
+Here's a brief overview of some key API endpoints. 
+
+POST /users/login: Get all users
+POST users/signup: Register a new user
+POST users/verify: Login a user
+GET /users/getById: Get user details
+DELETE /users/delete: delete user
