@@ -41,8 +41,8 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/your-backend-repo.git](https://github.com/your-username/your-backend-repo.git)
-    cd your-backend-repo
+    git clone [https://github.com/MidhunReddyS/nxtwave-backend.git]
+    cd nxtwave-backend
     ```
 
 2.  **Install dependencies:**
@@ -56,9 +56,9 @@ Before you begin, ensure you have the following installed:
 
 Create a `.env` file in the root of the project and add the following environment variables. Replace the placeholder values with your actual credentials.
 
-MONGO_URI=
-JWT_ACCESS_TOKEN=
-DOMAIN = 
+1. MONGO_URI=
+2. JWT_ACCESS_TOKEN=
+3. DOMAIN = 
 
 ### Running Locally
 
