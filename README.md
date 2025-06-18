@@ -1,4 +1,4 @@
-# My Backend Application
+# NxtWave Backend Application
 
 This repository contains the backend for my application, built with Node.js and Express. It provides APIs to support the frontend and is deployed on Render. link https://nxtwave-backend-29ei.onrender.com
 
