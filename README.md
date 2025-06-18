@@ -82,8 +82,8 @@ Adding your environment variables directly within the Render dashboard.
 
 Here's a brief overview of some key API endpoints. 
 
-POST /users/login: Get all users
-POST users/signup: Register a new user
-POST users/verify: Login a user
-GET /users/getById: Get user details
-DELETE /users/delete: delete user
+1. POST /users/login: Get all users
+2. POST users/signup: Register a new user
+3. POST users/verify: Login a user
+4. GET /users/getById: Get user details
+5. DELETE /users/delete: delete user
