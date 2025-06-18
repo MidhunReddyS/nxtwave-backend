@@ -19,7 +19,7 @@ app.use(express.urlencoded({ extended: false }))
 // cors setup
 app.use("/Public", cors(), express.static("Public"))
 
-const whitelist = ['http://localhost:5173']
+const whitelist = ['http://localhost:5173', 'https://midhunreddys.github.io/nxtwave-frontend']
 const corsOptions = {
   origin: (origin, callback) => {
     if (!origin || whitelist.includes(origin)) {
