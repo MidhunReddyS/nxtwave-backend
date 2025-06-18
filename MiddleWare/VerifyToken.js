@@ -14,7 +14,6 @@ const token_verify = (req, res, next) => {
         }
 
         // verify the token
-        console.log('hi', Token, jwtSecretKey);
         let decode = jwt.verify(Token, jwtSecretKey);
         
         if( decode ){
