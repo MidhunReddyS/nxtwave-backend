@@ -62,7 +62,7 @@ DOMAIN =
 
 ### Running Locally
 
-***To start the development server***:
+**To start the development server**:
     ```bash
     npm install
     # or
