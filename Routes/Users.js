@@ -2,8 +2,8 @@ const express = require("express");
 const Router = express.Router();
 
 // MiddleWare imports
-const token_verify = require('../Middleware/VerifyToken');
-const upload = require('../Middleware/Multer');
+const token_verify = require('../MiddleWare/VerifyToken');
+const upload = require('../MiddleWare/Multer');
 
 // Controller imports
 const Users = require("../Controllers/Users");
